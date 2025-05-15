@@ -1,4 +1,3 @@
-# lib/imap_api_client/mailer.ex
 defmodule ImapApiClient.Mailer do
   @moduledoc """
   Swoosh mailer configuration module.

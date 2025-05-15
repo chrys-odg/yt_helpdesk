@@ -24,7 +24,7 @@ defmodule ImapApiClient.MixProject do
     [
       {:hackney, "~> 1.9"},
       {:yugo, "~> 1.0"},
-      {:swoosh, "~> 1.9"},
+      {:swoosh, "~> 1.19"},
       {:gen_smtp, "~> 1.2"},
       {:httpoison, "~> 2.0"},
       {:jason, "~> 1.4"},
@@ -32,7 +32,6 @@ defmodule ImapApiClient.MixProject do
       {:exla, "~> 0.9.2"},
       {:nx, "~> 0.9.2"},
       {:axon, "~> 0.7.0"},
-      {:polaris, "~> 0.1.0"},
       {:mock, "~> 0.3.9", only: :test}
     ]
   end
